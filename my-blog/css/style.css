@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/*Color*/
+.cw {color: white;}
+.cb {color: black;}
+.ca0a {color: #000a0a;}
+.c103 {color: #103636;}
+.c008 {color: #008282;}
+.bg-w {background: white;}
+.bg-b {background: black;}
+.bg-a0a {background: #000a0a;}
+.bg-103 {background: #103636;}
+.bg-008 {background: #008282;}
+/*Color*/
+/*Column*/
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-5 {width: 50%;}
+.col-6 {width: 60%;}
+.col-7 {width: 70%;}
+.col-8 {width: 80%;}
+.col-9 {width: 90%;}
+.col-10 {width: 100%;}
+.col-05 {width: 5%;}
+.col-15 {width: 15%;}
+.col-25 {width: 25%;}
+.col-35 {width: 35%;}
+.col-45 {width: 45%;}
+.col-55 {width: 55%;}
+.col-65 {width: 65%;}
+.col-75 {width: 75%;}
+.col-85 {width: 85%;}
+.col-95 {width: 95%;}
+/*Column*/
+/*Float*/
+.fl {float: left;}
+.fr {float: right;}
+.fc {clear: both;}
+/*Float*/
+#nav {
+	height: 30px;
+}
+div#nav ul {list-style-type: none;}
+div#nav ul li {display: inline-block;}
+div#nav a {
+	color: #fff;
+	text-decoration: none;
+}
+#side-l {
+	height: 500px;
+}
+#side-r {
+	height: 500px;
+}
+#footer {
+	height: 50px;
+}
