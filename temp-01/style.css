@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+#nav, #header{
+	margin: 10px;
+	border-radius: 5px;
+	background: olive;
+}
+#header{
+	height: 100px;
+}
+#nav{
+	height: 50px;
+}
+.container{
+	background: lightgray;
+	margin: 10px 27% 10px 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.container h1{
+	margin: 10px;
+	color: red;
+	font-size: 25px;
+}
+.container p, .sideright p{
+	margin: 20px;
+}
+.sideright{
+	float: right;
+	width: 25%;
+	margin: 0px 10px 10px 10px;
+	border-radius: 5px;
+	background: goldenrod;
+	padding: 20px;
+	clear: right;
+}
+.sideright h2{
+	font-size: 150%;
+	color: teal;
+}

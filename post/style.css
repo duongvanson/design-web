@@ -1,0 +1,46 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin-top: 0px;
+}
+#news{
+	width: 100%;
+}
+#new-l, #new-r{
+	width: 50%;
+	float: left;
+}
+.post{
+	position: relative;
+	width: 50%;
+}
+.post-hot{
+	position: relative;
+	width: 100%;
+}
+.post,.post-host{
+	float: left;
+	padding-right: 5px;
+}
+.post-img{
+	width: 100%;
+	height: auto;
+}
+.post-title{
+	position: absolute;
+	background: rgba(0,0,0,0.3);
+	width: 98%;
+	height: 25%;
+	text-align: center;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 20px;
+	transition: 1s;
+	left: 0px;
+	bottom: 8px;
+}
+.post:hover .post-title{
+	background: rgba(0,0,0,0.9);
+	height: 30%;
+	color: red;
+}
